@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fichier.css">
+    <title>Djeneba - Assistant Dioula</title>
+</head>
+<body>
+    <!-- ÉTAGE 1 : Le Header avec le statut -->
+    <header>
+        <div class="header-info">
+            <h1>Djeneba</h1>
+            <h2>Assistant Dioula</h2>
+        </div>
+        <div class="status">
+            <span class="dot"></span> En ligne
+        </div>
+    </header>
+
+    <!-- ÉTAGE 2 : La zone des messages -->
+    <div id="chat-messages">
+        <div class="message assistant">
+            Bienvenue sur Djeneba 👋<br>An bε se ka kuma Dioula la
+        </div>
+    </div>
+
+    <!-- ÉTAGE 3 : La zone de saisie -->
+    <form id="chat-form">
+        <input type="text" id="chat-input" placeholder="Écrire un message en Dioula..." autocomplete="off">
+        <button type="submit" id="chat-send">➤</button>
+    </form>
+
+    <!-- Le script JavaScript -->
+    <script src="/static/chat.js"></script>
+</body>
+</html>
